@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;400&family=Lora&display=swap');
+
+*{
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+#calculadora {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem;
+    color: rgb(170, 202, 218);
+    background-color: rgb(3, 4, 34);
+    border-radius: 10px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#title {
+    font-size: 2rem;
+    position: relative;
+}
